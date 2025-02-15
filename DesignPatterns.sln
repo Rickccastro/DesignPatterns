@@ -5,9 +5,23 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPattern", "CreationalPattern", "{40D612A3-3C9B-4CF5-B7B1-DD6E48DC6A12}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaShopSimpleFactory", "CreationalPattern\SimpleFactory\PizzariaSimpleFactory\PizzaShopSimpleFactory.csproj", "{8298D56B-2C44-43AC-A4D8-5C0F9699946B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaShopFactoryMethod", "CreationalPattern\FactoryMethod\PizzaShopFactoryMethod\PizzaShopFactoryMethod\PizzaShopFactoryMethod.csproj", "{53CDD308-CD24-4680-8A7F-15DDCB08AECF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaShopNoSimpleFactory", "CreationalPattern\SimpleFactory\PizarriaNoSimpleFactory\PizzaShopNoSimpleFactory.csproj", "{43FB8B2A-5F94-4A20-9C24-1764EC108442}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleFactory", "SimpleFactory", "{63B6829F-861D-4131-9461-BAC082BE6C0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{7C030436-FEEC-479D-8C62-27A3AF4E9103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PizzaShop", "PizzaShop", "{1B3019DA-B13D-4CEB-8951-F806B6143743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{5EC8A47C-CD01-4B97-8256-93EB9E50492A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaShopNoSimpleFactory", "CreationalPattern\SimpleFactory\PizzaShop\PizarriaNoSimpleFactory\PizzaShopNoSimpleFactory.csproj", "{B219B429-7302-408E-9533-675FB65F431D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaShopSimpleFactory", "CreationalPattern\SimpleFactory\PizzaShop\PizzariaSimpleFactory\PizzaShopSimpleFactory.csproj", "{B8807299-6A6C-448A-9644-FFB84ED0A30B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageServiceFactory", "CreationalPattern\SimpleFactory\MessageService\MessageServiceFactory\MessageServiceFactory.csproj", "{C16F702C-3903-43C6-83BA-B2E213E4EEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesFactoryMethod", "MessagesFactoryMethod\MessagesFactoryMethod.csproj", "{5DA5C017-6837-4962-8339-7B5093F0F54C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,17 +29,40 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8298D56B-2C44-43AC-A4D8-5C0F9699946B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8298D56B-2C44-43AC-A4D8-5C0F9699946B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8298D56B-2C44-43AC-A4D8-5C0F9699946B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8298D56B-2C44-43AC-A4D8-5C0F9699946B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43FB8B2A-5F94-4A20-9C24-1764EC108442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43FB8B2A-5F94-4A20-9C24-1764EC108442}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43FB8B2A-5F94-4A20-9C24-1764EC108442}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43FB8B2A-5F94-4A20-9C24-1764EC108442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53CDD308-CD24-4680-8A7F-15DDCB08AECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CDD308-CD24-4680-8A7F-15DDCB08AECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CDD308-CD24-4680-8A7F-15DDCB08AECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CDD308-CD24-4680-8A7F-15DDCB08AECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B219B429-7302-408E-9533-675FB65F431D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B219B429-7302-408E-9533-675FB65F431D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B219B429-7302-408E-9533-675FB65F431D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B219B429-7302-408E-9533-675FB65F431D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8807299-6A6C-448A-9644-FFB84ED0A30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8807299-6A6C-448A-9644-FFB84ED0A30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8807299-6A6C-448A-9644-FFB84ED0A30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8807299-6A6C-448A-9644-FFB84ED0A30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16F702C-3903-43C6-83BA-B2E213E4EEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16F702C-3903-43C6-83BA-B2E213E4EEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16F702C-3903-43C6-83BA-B2E213E4EEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16F702C-3903-43C6-83BA-B2E213E4EEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA5C017-6837-4962-8339-7B5093F0F54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA5C017-6837-4962-8339-7B5093F0F54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA5C017-6837-4962-8339-7B5093F0F54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA5C017-6837-4962-8339-7B5093F0F54C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53CDD308-CD24-4680-8A7F-15DDCB08AECF} = {7C030436-FEEC-479D-8C62-27A3AF4E9103}
+		{63B6829F-861D-4131-9461-BAC082BE6C0E} = {40D612A3-3C9B-4CF5-B7B1-DD6E48DC6A12}
+		{7C030436-FEEC-479D-8C62-27A3AF4E9103} = {40D612A3-3C9B-4CF5-B7B1-DD6E48DC6A12}
+		{1B3019DA-B13D-4CEB-8951-F806B6143743} = {63B6829F-861D-4131-9461-BAC082BE6C0E}
+		{5EC8A47C-CD01-4B97-8256-93EB9E50492A} = {63B6829F-861D-4131-9461-BAC082BE6C0E}
+		{B219B429-7302-408E-9533-675FB65F431D} = {1B3019DA-B13D-4CEB-8951-F806B6143743}
+		{B8807299-6A6C-448A-9644-FFB84ED0A30B} = {1B3019DA-B13D-4CEB-8951-F806B6143743}
+		{C16F702C-3903-43C6-83BA-B2E213E4EEF6} = {5EC8A47C-CD01-4B97-8256-93EB9E50492A}
+		{5DA5C017-6837-4962-8339-7B5093F0F54C} = {7C030436-FEEC-479D-8C62-27A3AF4E9103}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11A26DC0-33A6-4AB8-99AA-CEA6FECC8AF0}
