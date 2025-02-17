@@ -21,6 +21,5 @@ internal class Program
         sms.SendNotification("You receive one message");
         sms.SendMessage("Hello");
 
-
     }
 }
