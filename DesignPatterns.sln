@@ -33,9 +33,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{AED4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PizzaExample", "PizzaExample", "{EB1BA3CA-2D49-4978-89E6-5D8558B28BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaBuilderExample", "CreationalPattern\Builder\PizzaExample\PizzaBuilder\PizzaBuilderExample.csproj", "{9120225F-ABE8-4AF8-86A7-57DA7E6CEEA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaBuilderExample", "CreationalPattern\Builder\PizzaExample\PizzaBuilder\PizzaBuilderExample.csproj", "{9120225F-ABE8-4AF8-86A7-57DA7E6CEEA5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaWithoutBuilder", "CreationalPattern\Builder\PizzaWithoutBuilder\PizzaWithoutBuilder.csproj", "{9BFEE0EF-3363-4AC9-94F1-CC2BA43831DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CarExample", "CarExample", "{2FA6A885-A2AB-4BEA-B9CD-7703CB87AAC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarExampleBuilder", "CreationalPattern\Builder\CarExample\CarExampleBuilder\CarExampleBuilder.csproj", "{103BC7C8-B814-4442-870B-2766323DA937}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{8C1ED500-F25C-4736-90CC-93F1A3B0C119}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "CreationalPattern\Singleton\SingletonPattern\SingletonPattern.csproj", "{BC8D5EC5-45F7-471A-8D39-039ECF94D088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +87,14 @@ Global
 		{9BFEE0EF-3363-4AC9-94F1-CC2BA43831DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BFEE0EF-3363-4AC9-94F1-CC2BA43831DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BFEE0EF-3363-4AC9-94F1-CC2BA43831DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103BC7C8-B814-4442-870B-2766323DA937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103BC7C8-B814-4442-870B-2766323DA937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103BC7C8-B814-4442-870B-2766323DA937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103BC7C8-B814-4442-870B-2766323DA937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8D5EC5-45F7-471A-8D39-039ECF94D088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8D5EC5-45F7-471A-8D39-039ECF94D088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8D5EC5-45F7-471A-8D39-039ECF94D088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8D5EC5-45F7-471A-8D39-039ECF94D088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +116,10 @@ Global
 		{EB1BA3CA-2D49-4978-89E6-5D8558B28BE8} = {AED498C0-9B6F-43BC-A281-81E2DCE29B18}
 		{9120225F-ABE8-4AF8-86A7-57DA7E6CEEA5} = {EB1BA3CA-2D49-4978-89E6-5D8558B28BE8}
 		{9BFEE0EF-3363-4AC9-94F1-CC2BA43831DE} = {EB1BA3CA-2D49-4978-89E6-5D8558B28BE8}
+		{2FA6A885-A2AB-4BEA-B9CD-7703CB87AAC6} = {AED498C0-9B6F-43BC-A281-81E2DCE29B18}
+		{103BC7C8-B814-4442-870B-2766323DA937} = {2FA6A885-A2AB-4BEA-B9CD-7703CB87AAC6}
+		{8C1ED500-F25C-4736-90CC-93F1A3B0C119} = {40D612A3-3C9B-4CF5-B7B1-DD6E48DC6A12}
+		{BC8D5EC5-45F7-471A-8D39-039ECF94D088} = {8C1ED500-F25C-4736-90CC-93F1A3B0C119}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11A26DC0-33A6-4AB8-99AA-CEA6FECC8AF0}
