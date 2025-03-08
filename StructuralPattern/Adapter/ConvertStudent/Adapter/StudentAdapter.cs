@@ -41,6 +41,7 @@ public class StudentAdapter : ITarget
             studentList.Add(new Student(Convert.ToInt32(Id), Name, Course, Convert.ToDecimal(Tuition)));
 
         }
+
         Console.WriteLine("The adapter has converted the array to a Student list.");
 
         tuitionSystem.TuitionCalculator(studentList);

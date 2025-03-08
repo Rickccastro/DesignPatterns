@@ -5,6 +5,10 @@ namespace PhoneObserver.Subject;
 
 public class ConcreteSubject : ISubject
 {
+    public string Available { get; set; }
+    public int Price { get; set; }
+    public string Product { get; set; }
+
     private List<IObserver> observers = new List<IObserver>();
 
     public ConcreteSubject(string product, int price,string available)
@@ -13,10 +17,6 @@ public class ConcreteSubject : ISubject
         Price = price;
         Product = product;
     }
-
-    public string Available { get; set; }
-    public int Price { get; set; }
-    public string Product { get; set; }
 
 
     public void NotifyObservers()
@@ -37,7 +37,7 @@ public class ConcreteSubject : ISubject
 
     public void RemoveObservers(IObserver observer)
     {
-        throw new NotImplementedException();
+        observers.Remove(observer);
     }
 
     public string GetAvailable()
